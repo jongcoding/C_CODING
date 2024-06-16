@@ -1,0 +1,35 @@
+# 디버그와 릴리스 폴더
+debug/
+release/
+
+# Object 파일
+*.o
+*.obj
+
+# 실행 파일
+*.exe
+*.out
+*.app
+*.i
+
+# 빌드 폴더
+build/
+dist/
+*.dSYM/
+
+# Visual Studio Code 관련 파일
+.vscode/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
